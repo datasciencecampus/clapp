@@ -29,7 +29,6 @@ In order to configure the app open the ``config.toml`` file with a text editor o
 your choice. The following settings will define how the app functions:
 
 ```toml
-# 
 # The location of the file which
 # will be used as a basis for the
 # processing. See further notes on the
@@ -111,8 +110,8 @@ to:
 ```
 
 If you select entries with fish and classify them into `aquatic animals` the app
- will push you into the next cluster and assigned `SKIPPED` but only on the
- first pass over the cluster. However if a user wants to also classify the
+ will push you into the next cluster and assign `SKIPPED` to all other entries
+ that are not fish. However if a user wants to also classify the
  `meat` as well they can use the arrows to go back and select the meat entries
  and assign a new label. Only those entries will be overwritten. The already
  existing fish labels will not be overwritten.

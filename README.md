@@ -19,7 +19,7 @@ In order to quickly install this run the following command in while in the app f
 ```
 pip install -r requirements
 ```
-The app is then ready to launch by simply tweaking the config.tweak file and by launching the app from the terminal as follows:
+The app is then ready to launch by simply tweaking the config file and by launching the app from the terminal as follows:
 ```
 cd path/to/app/folder
 python app.py

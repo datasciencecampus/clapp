@@ -39,7 +39,7 @@ ipython_genutils = "==0.2.0"
 Jinja2 = "==2.10.1"
 jupyter_core = "==4.4.0"
 MarkupSafe = "==1.1.1"
-Werkzeug = "==0.15.2"
+Werkzeug = "==0.15.3"
 
 [requires]
 python_version = "3.7"
